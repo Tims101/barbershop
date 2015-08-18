@@ -1,0 +1,10 @@
+.content {
+	margin-top: 50px;
+	padding: 0 10px;
+	font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+	.content__header {
+	    font-size: 20px;
+	    text-align: center;
+	}

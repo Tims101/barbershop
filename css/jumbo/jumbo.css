@@ -1,0 +1,67 @@
+.jumbo {
+	width: 100%;
+	height: 400px;
+	background: url('jumbo.png');
+	background-position: 50% 50%;
+
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+	.jumbo__headers {
+		margin: auto;
+		max-width: 750px;
+	}
+
+	.jumbo__header {
+		font-family: 'Roboto Condensed', Arial, sans-serif;
+	    font-weight: 700;
+	    line-height: 1.5;
+	    color: #000;
+	    text-transform: uppercase;
+		color: white;
+		font-size: 26px;
+		text-align: center;
+		background: rgba(0,0,0, 0.7);
+		padding: 20px 40px 40px;
+	}
+
+	.jumbo__title {
+		font-family: 'Roboto Condensed', Arial, sans-serif;
+	    font-size: 14px;
+	    margin: 0 auto;
+	    color: #eee;
+	    position: relative;
+	    margin-top: -2.5em;
+	    text-align: center;
+	    display: block;
+	}
+
+	.jumbo__button {
+		font-family: "Roboto Condensed", Arial, sans-serif;
+
+		font-weight: 100;
+		width: 200px;
+		display: block;
+		border: none;
+		height: 50px;
+		background: #000;
+		font-size: 18px;
+		color: #eee;
+		margin: auto;
+		outline: none;
+	}
+
+		.jumbo__button:hover,
+		.jumbo__button:focus {
+			background: #333;
+		}
+
+@media (max-width: 768px) {
+	.jumbo__header {
+		font-size: 20px;
+	}
+}
